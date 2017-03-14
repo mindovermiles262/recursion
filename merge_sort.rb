@@ -1,6 +1,6 @@
 def merge_sort(arr)
     return "INVALID INPUT. Input array must be longer than 1 element" unless arr.class == Array && arr.length > 1
-    return "Valid"
+    return arr.length
 end
 
 # Testing
